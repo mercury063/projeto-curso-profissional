@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Habilidades, Formação e Mercado de IA | Viva Sua Profissão</title>
   <meta name="description" content="Conheça as habilidades técnicas e comportamentais, a trilha de estudos, os cargos iniciais e as perspectivas do mercado para Engenheiro de IA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
   <header class="topo">
     <div class="container">
-      <a href="../index.html" class="logo">Viva Sua <span>Profissão</span></a>
+      <a href="../index.html" class="logo">
+        <span class="logo-marca" aria-hidden="true">VP</span>
+        Viva Sua <span>Profissão</span>
+      </a>
       <nav aria-label="Menu principal">
         <ul class="menu">
           <li><a href="../index.html">Início</a></li>
@@ -26,38 +32,43 @@
   <main>
     <section class="cabecalho-pagina">
       <div class="container">
-        <h1>Habilidades, Formação &amp; Mercado em IA</h1>
+        <p class="trilha-pagina mono">Início / Habilidades &amp; Mercado</p>
+        <h1>Habilidades, Formação e Mercado</h1>
         <p>
-          O que estudar no ensino médio e no curso técnico para entrar na área de pesquisa e criação de novas arquiteturas de Inteligência Artificial.
+          O que estudar ainda no ensino médio e no curso técnico para construir base em pesquisa de IA e criação de arquiteturas.
         </p>
       </div>
     </section>
 
     <section class="secao">
       <div class="container">
-        <h2>Competências essenciais para projetar arquiteturas de IA</h2>
-        <p class="subtitulo">
-          Combinar base matemática sólida com prática de programação permite entender cada bloco de uma rede neural.
-        </p>
+        <div class="cabecalho-secao">
+          <h2>Competências exigidas na área</h2>
+          <p class="subtitulo">
+            Quem cria modelos novos precisa juntar raciocínio matemático com boa prática de programação em equipe.
+          </p>
+        </div>
 
-        <div class="grid-duas-colunas">
+        <div class="grid-duas-colunas topo-alinhado">
           <article class="card">
-            <h3>Habilidades Técnicas (Hard Skills)</h3>
+            <span class="card-indice">Hard Skills</span>
+            <h3>Habilidades Técnicas</h3>
             <ul class="lista-simples">
-              <li><strong>Python e estruturas de dados:</strong> base indispensável para manipular matrizes, tensores e experimentos.</li>
-              <li><strong>Matemática aplicada:</strong> álgebra linear (vetores e matrizes), cálculo (derivadas e gradientes) e probabilidade.</li>
-              <li><strong>Arquiteturas de redes neurais:</strong> compreender perceptrons, CNNs, redes recorrentes e Transformers em frameworks como PyTorch.</li>
-              <li><strong>Git, Linux e inglês técnico:</strong> versionamento de código, execução em servidores e leitura de artigos científicos.</li>
+              <li><strong>Python e lógica:</strong> estruturar funções, classes e manipular matrizes de dados sem travar no básico.</li>
+              <li><strong>Matemática aplicada:</strong> álgebra linear (vetores e matrizes), derivadas e probabilidade.</li>
+              <li><strong>Arquiteturas de redes:</strong> entender como funcionam perceptrons, CNNs, redes recorrentes e Transformers.</li>
+              <li><strong>Git, Linux e inglês:</strong> controlar versões do código, rodar scripts no terminal e ler artigos técnicos.</li>
             </ul>
           </article>
 
           <article class="card">
-            <h3>Habilidades Comportamentais (Soft Skills)</h3>
+            <span class="card-indice">Soft Skills</span>
+            <h3>Habilidades Comportamentais</h3>
             <ul class="lista-simples">
-              <li><strong>Curiosidade científica:</strong> testar hipóteses, questionar resultados e gostar de aprender continuamente.</li>
-              <li><strong>Pensamento analítico:</strong> investigar por que um modelo falhou ou superajustou os dados.</li>
-              <li><strong>Comunicação clara:</strong> traduzir decisões técnicas complexas para colegas, usuários e gestores.</li>
-              <li><strong>Resiliência e organização:</strong> registrar experimentos e manter foco mesmo quando uma ideia não funciona de primeira.</li>
+              <li><strong>Curiosidade prática:</strong> testar hipóteses diferentes em vez de aceitar o primeiro resultado.</li>
+              <li><strong>Análise de erro:</strong> ter paciência para descobrir por que um treino não convergiu.</li>
+              <li><strong>Comunicação direta:</strong> explicar decisões técnicas para colegas que não programam na mesma área.</li>
+              <li><strong>Organização:</strong> anotar versões de testes e manter o código limpo para outras pessoas usarem.</li>
             </ul>
           </article>
         </div>
@@ -69,28 +80,27 @@
         <div class="grid-duas-colunas">
           <figure class="midia-destaque">
             <img
-              src="../img/pesquisa-arquitetura-neural.jpg"
-              alt="Diagrama esquemático de uma arquitetura de rede neural modular com camadas conectadas e fluxos de atenção em azul e ciano"
+              src="../img/matematica-quadro-pesquisa.jpg"
+              alt="Pesquisador escrevendo equações e somatórios matemáticos em um quadro branco durante estudo teórico"
               width="960"
-              height="540"
+              height="636"
               loading="lazy"
             >
             <figcaption>
-              Criar novas arquiteturas significa combinar camadas, conexões residuais e mecanismos de atenção de maneira eficiente.
+              Antes de ir para o código, muita arquitetura nasce no papel ou no quadro com somatórios e matrizes.
             </figcaption>
           </figure>
 
-          <div>
-            <h2>Como funciona a criação de uma nova arquitetura</h2>
+          <div class="bloco-texto">
+            <h2>Por que a matemática aparece tanto?</h2>
             <p>
-              Antes de escrever código avançado, vale revisar na
-              <a href="../index.html" class="link-contextual">página inicial sobre a profissão de Engenheiro de IA</a>
-              como a matemática se conecta aos problemas reais de visão, texto e automação.
+              Como explicamos na <a href="../index.html" class="link-contextual">apresentação inicial da profissão</a>,
+              uma rede neural nada mais é do que uma sequência organizada de contas com matrizes e funções.
             </p>
             <p>
-              Na prática, o pesquisador analisa gargalos das arquiteturas existentes — como consumo alto de
-              memória ou lentidão — e propõe novas conexões entre camadas. Para começar com passos guiados,
-              veja nosso <a href="materiais.html" class="link-contextual">roteiro de estudos e proposta de e-book em IA</a>.
+              Quando alguém inventa uma arquitetura nova, normalmente está tentando deixar essas contas mais
+              rápidas ou precisas. Para começar sem pular etapas, confira nosso
+              <a href="materiais.html" class="link-contextual">guia de primeiros passos e recursos gratuitos</a>.
             </p>
           </div>
         </div>
@@ -99,37 +109,40 @@
 
     <section class="secao">
       <div class="container">
-        <h2>Trilha recomendada de primeiros passos e mercado</h2>
-        <p class="subtitulo">
-          Um caminho realista para sair do zero no ensino médio até os primeiros projetos e oportunidades na área.
-        </p>
+        <div class="cabecalho-secao">
+          <h2>Trilha recomendada para começar</h2>
+          <p class="subtitulo">
+            Um roteiro realista em três fases para sair do ensino médio até os primeiros projetos e vagas júnior.
+          </p>
+        </div>
 
         <div class="grid-cards">
           <article class="card">
-            <h3>Passo 1: Base Escolar e Técnica</h3>
+            <span class="card-indice">Passo 01</span>
+            <h3>Base escolar e técnica</h3>
             <p>
-              Capriche em matemática (funções, matrizes e estatística), pratique inglês para leitura e
-              aproveite o Curso Técnico em Desenvolvimento de Sistemas para dominar lógica e algoritmos.
+              Focar em funções, matrizes e estatística na escola, treinar leitura em inglês e aproveitar o curso
+              técnico para dominar algoritmos, estrutura de dados e Git.
             </p>
           </article>
 
           <article class="card">
-            <h3>Passo 2: Prática e Portfólio</h3>
+            <span class="card-indice">Passo 02</span>
+            <h3>Prática e portfólio</h3>
             <p>
-              Implemente redes neurais simples do zero em Python, reproduza modelos clássicos e publique seus
-              experimentos documentados no GitHub com gráficos e explicações claras.
+              Programar uma rede simples em Python puro para entender o cálculo dos pesos, depois reproduzir
+              modelos conhecidos no GitHub com explicações claras no README.
             </p>
           </article>
 
           <article class="card">
-            <h3>Passo 3: Entrada no Mercado</h3>
+            <span class="card-indice">Passo 03</span>
+            <h3>Entrada no mercado</h3>
             <p>
-              Cargos iniciais incluem Estagiário de Dados/IA e Desenvolvedor Júnior de Machine Learning, com
-              faixa inicial média no Brasil entre R$ 3.500 e R$ 6.500 e forte crescimento em níveis sêniores.
-              Consulte referências oficiais na
+              O início costuma ser como estagiário de dados ou desenvolvedor júnior de Machine Learning, com
+              média salarial inicial no Brasil entre R$ 3.500 e R$ 6.500. Veja dados oficiais na
               <a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo" class="link-contextual" target="_blank" rel="noopener noreferrer">CBO do Ministério do Trabalho</a>
-              e dados de tecnologia no
-              <a href="https://www.ibge.gov.br/" class="link-contextual" target="_blank" rel="noopener noreferrer">portal do IBGE</a>.
+              e no <a href="https://www.ibge.gov.br/" class="link-contextual" target="_blank" rel="noopener noreferrer">portal do IBGE</a>.
             </p>
           </article>
         </div>
@@ -139,15 +152,20 @@
 
   <footer class="rodape">
     <div class="container">
-      <ul class="rodape-links" aria-label="Links rápidos do rodapé">
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="habilidades.html">Habilidades &amp; Mercado</a></li>
-        <li><a href="materiais.html">Materiais &amp; E-book</a></li>
-        <li><a href="sobre.html">Sobre o Projeto</a></li>
-        <li><a href="../sitemap.xml">Sitemap XML</a></li>
-      </ul>
-      <p>Projeto <strong>Viva Sua Profissão</strong> — Curso Técnico em Desenvolvimento de Sistemas (Proz Educação)</p>
-      <p class="creditos">Desenvolvido pelo Grupo Powerspark: Mateus, João e Guilherme</p>
+      <div class="rodape-conteudo">
+        <div>
+          <p class="rodape-marca">Viva Sua Profissão</p>
+          <p>Curso Técnico em Desenvolvimento de Sistemas · Proz Educação</p>
+        </div>
+        <ul class="rodape-links" aria-label="Links do rodapé">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="materiais.html">Materiais</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <p class="creditos">Desenvolvido por Mateus, João e Guilherme (Grupo Powerspark)</p>
     </div>
   </footer>
 

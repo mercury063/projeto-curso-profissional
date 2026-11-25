@@ -1,33 +1,29 @@
-# Projeto Viva Sua Profissão — Engenheiro de Inteligência Artificial
+# Projeto Viva Sua Profissão - Engenheiro de Inteligência Artificial
 
-Portal informativo desenvolvido pelo **Grupo Powerspark (Mateus, João e Guilherme)** na disciplina **Administração de Websites** (Curso Técnico em Desenvolvimento de Sistemas — Proz Educação).
+Site informativo feito por **Mateus, João e Guilherme (Grupo Powerspark)** para a disciplina **Administração de Websites** (Curso Técnico em Desenvolvimento de Sistemas, Proz Educação).
 
-## Profissão Escolhida
+## Profissão escolhida
 
-**Engenheiro de Inteligência Artificial (Pesquisa e Criação de Novas Arquiteturas)** — carreira voltada ao estudo contínuo de IA, fundamentos matemáticos e criação de novas arquiteturas de redes neurais e modelos inteligentes.
+**Engenheiro de Inteligência Artificial**, com foco no estudo de fundamentos matemáticos, programação e criação de novas arquiteturas de redes neurais.
 
-## Público-Alvo
-
-Estudantes do ensino médio e de cursos técnicos que buscam entender a rotina, as habilidades exigidas, o mercado de trabalho e os primeiros passos para estudar e criar soluções em Inteligência Artificial.
-
-## Estrutura de Pastas
+## Estrutura de arquivos
 
 ```text
-├── index.html               # Página inicial (Descoberta da profissão)
+├── index.html               # Página inicial do portal
 ├── robots.txt               # Regras de rastreamento para buscadores
-├── sitemap.xml              # Mapa XML das páginas do portal
+├── sitemap.xml              # Mapa XML das páginas
 ├── css/
-│   └── style.css            # Estilos globais responsivos e paleta do portal
+│   └── style.css            # Folha de estilos responsiva
 ├── img/
-│   ├── banner-arquitetura-ia.jpg
-│   ├── rotina-engenheiro-ia.jpg
-│   └── pesquisa-arquitetura-neural.jpg
+│   ├── banner-carreira-ia.png
+│   ├── matematica-quadro-pesquisa.jpg
+│   └── rotina-codigo-pesquisa.jpg
 └── pages/
-    ├── habilidades.html     # Hard skills, soft skills, trilha e mercado
+    ├── habilidades.html     # Competências, trilha e mercado
     ├── materiais.html       # Banner, proposta de e-book e landing page
-    └── sobre.html           # Mapa do site, estratégia de conteúdo, SEO e créditos
+    └── sobre.html           # Mapa do site, estratégia e créditos
 ```
 
-## Site Publicado (GitHub Pages)
+## Publicação
 
-- URL: https://mercury063.github.io/projeto-curso-profissional/
+- GitHub Pages: https://mercury063.github.io/projeto-curso-profissional/

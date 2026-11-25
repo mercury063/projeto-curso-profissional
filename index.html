@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Engenheiro de IA: O que Faz e Carreira | Viva Sua Profissão</title>
   <meta name="description" content="Descubra o que faz o Engenheiro de Inteligência Artificial, como projetar novas arquiteturas de IA, o mercado atual e por onde começar a estudar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- CABEÇALHO E MENU DE NAVEGAÇÃO -->
   <header class="topo">
     <div class="container">
-      <a href="index.html" class="logo">Viva Sua <span>Profissão</span></a>
+      <a href="index.html" class="logo">
+        <span class="logo-marca" aria-hidden="true">VP</span>
+        Viva Sua <span>Profissão</span>
+      </a>
       <nav aria-label="Menu principal">
         <ul class="menu">
           <li><a href="index.html" class="ativo">Início</a></li>
@@ -24,126 +29,163 @@
     </div>
   </header>
 
-  <!-- CONTEÚDO PRINCIPAL -->
   <main>
-    <!-- SEÇÃO HERO (DESCOBERTA) -->
     <section class="hero">
       <div class="container">
-        <span class="etiqueta">Guia de Carreira em Tecnologia • Grupo Powerspark</span>
-        <h1>Engenheiro de Inteligência Artificial: pesquisa e novas arquiteturas</h1>
-        <p>
-          Esse profissional estuda matemática, programação e aprendizado profundo para projetar novos
-          modelos de IA do zero, em vez de apenas usar ferramentas prontas. É a carreira ideal para quem
-          quer entender como as redes neurais pensam e criar arquiteturas mais rápidas e inteligentes.
-        </p>
-        <div class="botoes-hero">
-          <a href="pages/habilidades.html" class="btn btn-primario">Conhecer habilidades e formação em IA</a>
-          <a href="pages/materiais.html" class="btn btn-secundario">Acessar guia de primeiros passos em IA</a>
+        <div class="hero-grid">
+          <div>
+            <span class="etiqueta">Guia de Carreira · Ensino Médio e Técnico</span>
+            <h1>Engenheiro de Inteligência Artificial</h1>
+            <p class="hero-texto">
+              Quem segue essa profissão estuda matemática e computação para montar modelos novos do zero,
+              em vez de apenas usar ferramentas prontas. O foco está em testar ideias e projetar arquiteturas
+              de redes neurais mais rápidas e eficientes.
+            </p>
+            <div class="botoes-hero">
+              <a href="pages/habilidades.html" class="btn btn-primario">Ver habilidades e trilha em IA</a>
+              <a href="pages/materiais.html" class="btn btn-secundario">Acessar materiais de estudo</a>
+            </div>
+          </div>
+
+          <aside class="painel-codigo" aria-label="Exemplo de bloco de arquitetura neural em Python">
+            <div class="painel-topo">
+              <span class="mono">bloco_neural.py</span>
+              <strong>Python + PyTorch</strong>
+            </div>
+            <pre><code><span class="c-cm"># Exemplo simples de camada customizada</span>
+<span class="c-kw">class</span> <span class="c-fn">BlocoResidual</span>(nn.Module):
+    <span class="c-kw">def</span> <span class="c-fn">__init__</span>(self, dim):
+        super().__init__()
+        self.camada = nn.Linear(dim, dim)
+
+    <span class="c-kw">def</span> <span class="c-fn">forward</span>(self, x):
+        <span class="c-kw">return</span> x + torch.relu(self.camada(x))</code></pre>
+            <div class="painel-resumo">
+              <div class="painel-item">
+                <span>Foco principal</span>
+                <strong>Arquitetura de modelos</strong>
+              </div>
+              <div class="painel-item">
+                <span>Base escolar</span>
+                <strong>Matemática e lógica</strong>
+              </div>
+              <div class="painel-item">
+                <span>Atuação</span>
+                <strong>Pesquisa e indústria</strong>
+              </div>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
 
-    <!-- RESUMO EM CARDS (3 COLUNAS RESPONSIVAS) -->
     <section class="secao">
       <div class="container">
-        <h2>O que faz esse profissional no dia a dia?</h2>
-        <p class="subtitulo">
-          Voltado para estudantes do ensino médio e de cursos técnicos, este resumo mostra como a pesquisa teórica vira software no mundo real.
-        </p>
+        <div class="cabecalho-secao">
+          <h2>O que faz esse profissional no dia a dia?</h2>
+          <p class="subtitulo">
+            Para quem está no ensino médio ou curso técnico, a rotina mistura estudo teórico, código limpo e muitos testes práticos.
+          </p>
+        </div>
 
         <div class="grid-cards">
           <article class="card">
-            <h3>1. Pesquisa e Novas Arquiteturas</h3>
+            <span class="card-indice">01</span>
+            <h3>Pesquisa e novas arquiteturas</h3>
             <p>
-              Lê artigos científicos, formula hipóteses matemáticas e desenha novas camadas, blocos de atenção
-              e fluxos de dados para resolver problemas complexos em texto, visão computacional ou áudio.
+              Lê artigos científicos, formula hipóteses e desenha conexões entre camadas de uma rede neural
+              para resolver problemas de texto, imagem ou áudio gastando menos memória.
             </p>
           </article>
 
           <article class="card">
-            <h3>2. Linguagens e Ferramentas</h3>
+            <span class="card-indice">02</span>
+            <h3>Ferramentas e código</h3>
             <p>
-              Programa principalmente em Python usando bibliotecas como
+              Programa quase sempre em Python usando bibliotecas como
               <a href="https://pytorch.org/" class="link-contextual" target="_blank" rel="noopener noreferrer">PyTorch</a>,
-              além de trabalhar com Linux, Git e placas gráficas (GPUs) para treinar e avaliar experimentos.
+              junto com Linux, controle de versão no Git e placas gráficas (GPUs) para rodar os treinos.
             </p>
           </article>
 
           <article class="card">
-            <h3>3. Onde Pode Trabalhar</h3>
+            <span class="card-indice">03</span>
+            <h3>Onde pode trabalhar</h3>
             <p>
-              Atua em laboratórios de pesquisa, empresas de tecnologia, hospitais, indústrias, bancos ou
-              startups de inovação, tanto presencialmente quanto em equipes remotas internacionais.
+              Há vagas em laboratórios universitários, empresas de tecnologia, bancos, hospitais e indústrias,
+              tanto em equipes presenciais quanto em projetos remotos.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ROTINA E APROFUNDAMENTO (COM IMAGEM OTIMIZADA ABAIXO DA DOBRA) -->
     <section class="secao secao-cinza">
       <div class="container">
         <div class="grid-duas-colunas">
-          <div>
-            <h2>Como estudar IA vai além de usar ferramentas prontas</h2>
+          <div class="bloco-texto">
+            <h2>Estudar IA é diferente de apenas usar aplicativos</h2>
             <p>
-              Enquanto muita gente apenas digita comandos em chats prontos, o engenheiro focado em pesquisa e
-              arquitetura investiga os fundamentos por trás dos modelos. Ele testa como reduzir o consumo de
-              memória e aumentar a precisão de cada rede neural.
+              Muita gente acha que trabalhar com Inteligência Artificial significa escrever bons comandos em
+              um chat. Na prática, o engenheiro de pesquisa investiga como os cálculos acontecem dentro do
+              modelo e por que uma arquitetura aprende melhor do que outra.
             </p>
             <p>
-              No dia a dia, boa parte do tempo envolve ler publicações recentes em repositórios abertos como o
-              <a href="https://arxiv.org/list/cs.LG/recent" class="link-contextual" target="_blank" rel="noopener noreferrer">arXiv (artigos de Machine Learning)</a>,
-              transformar equações em código limpo e comparar métricas de treinamento.
+              Grande parte da semana envolve ler estudos recém-publicados no
+              <a href="https://arxiv.org/list/cs.LG/recent" class="link-contextual" target="_blank" rel="noopener noreferrer">repositório aberto arXiv</a>,
+              implementar testes em Python e comparar taxas de erro em gráficos.
             </p>
             <p>
-              Para descobrir quais disciplinas construir agora, confira as
-              <a href="pages/habilidades.html" class="link-contextual">habilidades técnicas e trilha de formação em IA</a>
-              ou explore o nosso <a href="pages/materiais.html" class="link-contextual">guia rápido sobre arquiteturas de modelos</a>.
+              Se você quer saber quais matérias priorizar agora, veja a página de
+              <a href="pages/habilidades.html" class="link-contextual">habilidades técnicas e trilha de formação</a>
+              ou confira nosso <a href="pages/materiais.html" class="link-contextual">roteiro de estudos e proposta de e-book</a>.
             </p>
           </div>
 
           <figure class="midia-destaque">
             <img
-              src="img/rotina-engenheiro-ia.jpg"
-              alt="Pesquisador e engenheiro de inteligência artificial programando em Python e analisando gráficos de redes neurais em dois monitores"
+              src="img/rotina-codigo-pesquisa.jpg"
+              alt="Monitor com código fonte colorido exibido em tela escura durante sessão de programação"
               width="960"
-              height="540"
+              height="640"
               loading="lazy"
             >
             <figcaption>
-              Rotina prática: desenvolvimento de código em Python, acompanhamento de curvas de aprendizado e esboços de camadas neurais.
+              Rotina de desenvolvimento: leitura de código, ajustes de parâmetros e validação dos resultados no terminal.
             </figcaption>
           </figure>
         </div>
       </div>
     </section>
 
-    <!-- CHAMADA PARA AÇÃO E NAVEGAÇÃO -->
-    <section class="secao secao-destaque">
+    <section class="secao secao-escura">
       <div class="container">
-        <h2>Quer construir sua base para criar arquiteturas de IA?</h2>
+        <h2>Quer entender o próximo passo na área?</h2>
         <p>
-          Preparamos uma página dedicada aos materiais de estudo e também explicamos como planejamos este portal na página
+          Reunimos indicações de leitura e explicamos a organização do nosso portal na página
           <a href="pages/sobre.html" class="link-contextual">Sobre o Projeto e Estratégia Web</a>.
         </p>
-        <a href="pages/materiais.html" class="btn btn-primario">Explorar e-book e materiais gratuitos de IA</a>
+        <a href="pages/materiais.html" class="btn btn-primario">Explorar materiais e guia inicial</a>
       </div>
     </section>
   </main>
 
-  <!-- RODAPÉ -->
   <footer class="rodape">
     <div class="container">
-      <ul class="rodape-links" aria-label="Links rápidos do rodapé">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="pages/habilidades.html">Habilidades &amp; Mercado</a></li>
-        <li><a href="pages/materiais.html">Materiais &amp; E-book</a></li>
-        <li><a href="pages/sobre.html">Sobre o Projeto</a></li>
-        <li><a href="sitemap.xml">Sitemap XML</a></li>
-      </ul>
-      <p>Projeto <strong>Viva Sua Profissão</strong> — Curso Técnico em Desenvolvimento de Sistemas (Proz Educação)</p>
-      <p class="creditos">Desenvolvido pelo Grupo Powerspark: Mateus, João e Guilherme</p>
+      <div class="rodape-conteudo">
+        <div>
+          <p class="rodape-marca">Viva Sua Profissão</p>
+          <p>Curso Técnico em Desenvolvimento de Sistemas · Proz Educação</p>
+        </div>
+        <ul class="rodape-links" aria-label="Links do rodapé">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pages/habilidades.html">Habilidades</a></li>
+          <li><a href="pages/materiais.html">Materiais</a></li>
+          <li><a href="pages/sobre.html">Sobre</a></li>
+          <li><a href="sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <p class="creditos">Desenvolvido por Mateus, João e Guilherme (Grupo Powerspark)</p>
     </div>
   </footer>
 
