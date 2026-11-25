@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mercury063.github.io/projeto-curso-profissional/sitemap.xml

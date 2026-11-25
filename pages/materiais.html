@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia e Materiais de Arquitetura de IA | Viva Sua Profissão</title>
+  <meta name="description" content="Confira o banner oficial do portal, a proposta de e-book sobre arquiteturas de IA e recursos gratuitos para iniciar seus estudos com segurança.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <a href="../index.html" class="logo">Viva Sua <span>Profissão</span></a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="habilidades.html">Habilidades &amp; Mercado</a></li>
+          <li><a href="materiais.html" class="ativo">Materiais &amp; E-book</a></li>
+          <li><a href="sobre.html">Sobre o Projeto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="cabecalho-pagina">
+      <div class="container">
+        <h1>Materiais, Banner &amp; Guia de Arquiteturas de IA</h1>
+        <p>
+          Recursos práticos criados pelo Grupo Powerspark para quem deseja sair da curiosidade e dar os primeiros passos no estudo de Inteligência Artificial.
+        </p>
+      </div>
+    </section>
+
+    <!-- ÁREA DO BANNER CRIADO PELO GRUPO -->
+    <section class="secao">
+      <div class="container">
+        <h2>Banner de Divulgação do Portal</h2>
+        <p class="subtitulo">
+          Peça visual produzida para divulgar a carreira de pesquisa e arquitetura de redes neurais nas redes e apresentações da turma.
+        </p>
+
+        <figure class="caixa-banner">
+          <img
+            src="../img/banner-arquitetura-ia.jpg"
+            alt="Banner ilustrativo do portal Viva Sua Profissão exibindo camadas de redes neurais e fluxos de atenção em azul e ciano"
+            width="1200"
+            height="400"
+          >
+          <figcaption>
+            Banner oficial do portal Viva Sua Profissão — Engenheiro de Inteligência Artificial (1200 × 400 px).
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ESBOÇO DE LANDING PAGE + PROPOSTA DE E-BOOK -->
+    <section class="secao secao-cinza">
+      <div class="container">
+        <h2>Proposta de E-book e Landing Page de Captura</h2>
+        <p class="subtitulo">
+          Antes de baixar materiais avançados, recomendamos revisar as
+          <a href="habilidades.html" class="link-contextual">habilidades técnicas e comportamentais exigidas pela área</a>
+          e consultar a página <a href="sobre.html" class="link-contextual">Sobre o Projeto e Estratégia Web</a>.
+        </p>
+
+        <div class="grid-duas-colunas">
+          <article class="card">
+            <span class="etiqueta">Proposta de E-book Curto</span>
+            <h3>Guia Rápido: Primeiros Passos em Arquiteturas de IA</h3>
+            <p>Resumo dos três capítulos planejados pelo grupo para estudantes iniciantes:</p>
+            <ul class="lista-simples">
+              <li><strong>Capítulo 1:</strong> Do perceptron aos Transformers — como as camadas de uma rede neural se organizam.</li>
+              <li><strong>Capítulo 2:</strong> Erros comuns de quem começa — pular a matemática básica e copiar código sem testar hipóteses.</li>
+              <li><strong>Capítulo 3:</strong> Checklist de cursos gratuitos em Python, PyTorch e trilhas abertas como o
+                <a href="https://huggingface.co/learn" class="link-contextual" target="_blank" rel="noopener noreferrer">Hugging Face Learn</a>.
+              </li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <span class="etiqueta">Esboço de Landing Page</span>
+            <h3>Receba o E-book Gratuitamente</h3>
+            <p>
+              Simulação visual de formulário de captura para estudo de usabilidade em sites estáticos (sem envio real para banco de dados):
+            </p>
+            <form class="form-simulado" id="form-ebook">
+              <label for="nome">Seu nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+              <label for="email">Seu melhor e-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+
+              <button type="submit" class="btn btn-primario">Receber guia de arquitetura de IA</button>
+              <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <ul class="rodape-links" aria-label="Links rápidos do rodapé">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="habilidades.html">Habilidades &amp; Mercado</a></li>
+        <li><a href="materiais.html">Materiais &amp; E-book</a></li>
+        <li><a href="sobre.html">Sobre o Projeto</a></li>
+        <li><a href="../sitemap.xml">Sitemap XML</a></li>
+      </ul>
+      <p>Projeto <strong>Viva Sua Profissão</strong> — Curso Técnico em Desenvolvimento de Sistemas (Proz Educação)</p>
+      <p class="creditos">Desenvolvido pelo Grupo Powerspark: Mateus, João e Guilherme</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('form-ebook').addEventListener('submit', function (event) {
+      event.preventDefault();
+      var nome = document.getElementById('nome').value.trim();
+      var feedback = document.getElementById('form-feedback');
+      feedback.textContent = 'Simulação concluída para ' + (nome || 'visitante') + '! Em um site estático no GitHub Pages não há banco de dados ativo.';
+    });
+  </script>
+
+</body>
+</html>

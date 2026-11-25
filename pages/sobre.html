@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Projeto e Estratégia Web | Viva Sua Profissão</title>
+  <meta name="description" content="Entenda o público-alvo, o mapa de navegação, as palavras-chave de SEO e por que este portal informativo estático usa HTML5, CSS3 e GitHub Pages.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <a href="../index.html" class="logo">Viva Sua <span>Profissão</span></a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="habilidades.html">Habilidades &amp; Mercado</a></li>
+          <li><a href="materiais.html">Materiais &amp; E-book</a></li>
+          <li><a href="sobre.html" class="ativo">Sobre o Projeto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="cabecalho-pagina">
+      <div class="container">
+        <h1>Sobre o Projeto, Estratégia &amp; Arquitetura</h1>
+        <p>
+          Documentação das decisões editoriais, de SEO e de hospedagem tomadas pelo Grupo Powerspark para o portal Viva Sua Profissão.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <h2>Arquitetura de Informação e Hospedagem</h2>
+        <p class="subtitulo">
+          Cada página cumpre uma etapa clara da jornada do visitante, evitando excesso de texto e páginas isoladas.
+        </p>
+
+        <div class="grid-duas-colunas">
+          <article class="card">
+            <h3>Estrutura de Navegação (Mapa do Site)</h3>
+            <p>Todas as telas do portal estão interligadas pelo menu, rodapé e links contextuais:</p>
+            <ul class="lista-simples">
+              <li><a href="../index.html" class="link-contextual">Página inicial (index.html)</a> — Descoberta da profissão e rotina em IA.</li>
+              <li><a href="habilidades.html" class="link-contextual">Habilidades &amp; Mercado (pages/habilidades.html)</a> — Competências, trilha e salários.</li>
+              <li><a href="materiais.html" class="link-contextual">Materiais &amp; E-book (pages/materiais.html)</a> — Banner, proposta de guia e landing page.</li>
+              <li><a href="sobre.html" class="link-contextual">Sobre o Projeto (pages/sobre.html)</a> — Estratégia de conteúdo, SEO e créditos.</li>
+              <li><code>robots.txt</code> e <code>sitemap.xml</code> — Arquivos técnicos na raiz para indexação nos buscadores.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Por que GitHub Pages? (Site Estático)</h3>
+            <p>
+              Este portal foi desenvolvido com <strong>HTML5 e CSS3</strong> como um <strong>site estático</strong>,
+              publicado gratuitamente via
+              <a href="https://docs.github.com/pt/pages" class="link-contextual" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+            </p>
+            <p>
+              Diferente de aplicações em <strong>PHP ou WordPress</strong>, páginas informativas estáticas não precisam de
+              processamento no servidor nem banco de dados, garantindo carregamento veloz, alta segurança e controle de versão via Git.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-cinza">
+      <div class="container">
+        <h2>Estratégia de Conteúdo e Planejamento de SEO</h2>
+        <p class="subtitulo">
+          Aplicação prática dos conceitos de público-alvo, escaneabilidade, hierarquia semântica e palavras-chave.
+        </p>
+
+        <div class="grid-duas-colunas">
+          <article class="card">
+            <h3>Público-Alvo e Jornada do Visitante</h3>
+            <p>
+              O portal foi escrito para <strong>estudantes do ensino médio e de cursos técnicos</strong> (15 a 22 anos)
+              que têm interesse em tecnologia e desejam entender como estudar IA e criar novas arquiteturas.
+            </p>
+            <p>
+              A leitura segue três etapas: descoberta na <a href="../index.html" class="link-contextual">apresentação inicial da carreira</a>,
+              aprofundamento na <a href="habilidades.html" class="link-contextual">trilha de habilidades e mercado</a>
+              e ação prática nos <a href="materiais.html" class="link-contextual">materiais e guia rápido de estudos</a>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Palavras-Chave e Otimização On-Page</h3>
+            <ul class="lista-simples">
+              <li><strong>Palavra-chave principal (Home):</strong> o que faz engenheiro de inteligência artificial.</li>
+              <li><strong>Secundária 1 (Habilidades):</strong> habilidades e formação para criar arquiteturas de IA.</li>
+              <li><strong>Secundária 2 (Materiais):</strong> guia de primeiros passos em arquitetura de IA.</li>
+              <li><strong>Intenção de busca:</strong> informacional e prática, com parágrafos curtos, um único <code>&lt;h1&gt;</code> por página, imagens leves com <code>alt</code> e links relativos seguros.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <ul class="rodape-links" aria-label="Links rápidos do rodapé">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="habilidades.html">Habilidades &amp; Mercado</a></li>
+        <li><a href="materiais.html">Materiais &amp; E-book</a></li>
+        <li><a href="sobre.html">Sobre o Projeto</a></li>
+        <li><a href="../sitemap.xml">Sitemap XML</a></li>
+      </ul>
+      <p>Projeto <strong>Viva Sua Profissão</strong> — Curso Técnico em Desenvolvimento de Sistemas (Proz Educação)</p>
+      <p class="creditos">Desenvolvido pelo Grupo Powerspark: Mateus, João e Guilherme</p>
+    </div>
+  </footer>
+
+</body>
+</html>
